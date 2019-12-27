@@ -8,24 +8,24 @@ var text = getParams("text"); // variavel text receberar o valor Testando
 ```
 
 
-## Simple Modal View
+## Visualização Modal Simples
 
-A modal component without using the jQuery library.
+Um modal sem usar a biblioteca jQuery.
 
-### Basic Usage
+### Uso básico
 
-#### Installation
+#### Instalação
 
-Include the CSS and JS files.
+Inclua os arquivos CSS e JS.
 ```html
-<link href="modal.css" rel="stylesheet"/>
-<script type="application/javascript" src="modal.js"></script>
+<link href="style.css" rel="stylesheet"/>
+<script type="application/javascript" src="script.js"></script>
 ```
 
-#### Add the Trigger
+#### Adicione o gatilho
 
 ```html
-<button data-target="modal_dialog_ID" data-toggle="modal">Launch modal</button>
+<button data-target="modal_dialog_ID" data-toggle="modal">Abrir modal</button>
 ```
 
 #### Create the Modal
@@ -40,4 +40,4 @@ Include the CSS and JS files.
 ```
 
 #### Demo
-See [modal.html](https://faurelia.github.io/simple-modal-view/modal.html) for examples.
+[modal.html](https://faurelia.github.io/simple-modal-view/modal.html).
