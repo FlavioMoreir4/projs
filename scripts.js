@@ -10,7 +10,7 @@ var getParams = function(variable) {
   return (false);
 }
 
-let Consult = function (URLI) {
+let Consult = function (URL, URLI) {
     return fetch(URL, {
         method: "POST",
         body: URLI,
